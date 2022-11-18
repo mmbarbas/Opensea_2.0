@@ -87,7 +87,7 @@ const NavBar = () => {
                     <div className={Style.navbar_container_left_box_input}>
                         <div className={Style.navbar_container_left_box_input_box}>
                             <input type='text' placeholder="Search NFT" />
-                            <BsSearch onClick={()=>{}} className={Style.search_con}/>
+                            <BsSearch onClick={()=>{}} className={Style.search_icon}/>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ const NavBar = () => {
             </div>
             {/* SideBar component*/}
             {openSideMenu && (
-                <div className={Style.SideBar}>
+                <div className={Style.sideBar}>
                     <SideBar setOpenSideMenu={setOpenSideMenu}/>
                 </div>
             )}
