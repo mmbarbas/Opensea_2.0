@@ -15,9 +15,9 @@ const DaysComponents = ({el,i}) => {
           <Image src={images.creatorbackground1} className={Style.daysComponent_box_img_img} alt="profile background" width={500} height={300} />
         </div>
         <div className={Style.daysComponent_box_profile}>
-          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_1} alt="profile" width={200} height={200} />
-          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_2} alt="profile" width={200} height={200} />
-          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_3} alt="profile" width={200} height={200} />
+          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_1} alt="profile" width={160} height={160} />
+          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_2} alt="profile" width={160} height={160} />
+          <Image src={images.creatorbackground2} className={Style.daysComponent_box_img_3} alt="profile" width={160} height={160} />
         </div>
         <div className={Style.daysComponent_box_title}>
           <h2>Amazing Collection</h2>
