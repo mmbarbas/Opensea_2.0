@@ -71,7 +71,7 @@ const Collection = () => {
                 popular && (
                     <div className={Style.collection_box}>
                         {CardArray.map((el, i) => (
-                            <DaysComponent key={i + 1} />
+                            <DaysComponent key={i + 1} i={i} el={el}/>
                         ))}
                     </div>
                 )
@@ -80,7 +80,7 @@ const Collection = () => {
                 following && (
                     <div className={Style.collection_box}>
                         {FollowingArray.map((el, i) => (
-                            <DaysComponent key={i + 1} />
+                            <DaysComponent key={i + 1} i={i} el={el}/>
                         ))}
                     </div>
                 )
@@ -89,7 +89,7 @@ const Collection = () => {
                 news && (
                     <div className={Style.collection_box}>
                         {NewsArray.map((el, i) => (
-                            <DaysComponent key={i + 1} />
+                            <DaysComponent key={i + 1} i={i} el={el}/>
                         ))}
                     </div>
                 )
